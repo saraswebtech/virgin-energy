@@ -40,17 +40,35 @@
       });
   
       /* ================================
-       Sticky Header Js Start
-    ================================ */
+        Sticky Header Js Start
+     ================================ */
 
-      $windowOn.on("scroll", function () {
-        if ($(this).scrollTop() > 250) {
-          $("#header-sticky").addClass("sticky");
-        } else {
-          $("#header-sticky").removeClass("sticky");
-        }
-      });     
-      
+      if ($('#smooth-wrapper').length && $('#smooth-content').length && typeof ScrollTrigger !== "undefined") {
+        ScrollTrigger.create({
+          start: "top -250",
+          end: 99999,
+          onUpdate: (self) => {
+            if (self.scroll() > 250) {
+              $("#header-sticky").addClass("sticky");
+            } else {
+              $("#header-sticky").removeClass("sticky");
+            }
+          },
+          onToggle: (self) => {
+            $("#header-sticky").toggleClass("sticky", self.isActive);
+          }
+        });
+      } else {
+        $windowOn.on("scroll", function () {
+          if ($(this).scrollTop() > 250) {
+            $("#header-sticky").addClass("sticky");
+          } else {
+            $("#header-sticky").removeClass("sticky");
+          }
+        });
+      }
+       
+
     //>> Scrolldown Start <<//
     $("#scrollDown").on("click", function () {
         setTimeout(function () {
