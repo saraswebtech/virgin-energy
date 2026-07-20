@@ -2075,7 +2075,7 @@ span {
 .contact-form-box h3 {
   margin-bottom: 30px;
 }
-.contact-form-box .form-clt input, .contact-form-box .form-clt textarea {
+.contact-form-box .form-clt input, .contact-form-box .form-clt textarea, .contact-form-box .form-clt select {
   line-height: 1;
   padding: 20px 20px;
   width: 100%;
@@ -2087,6 +2087,18 @@ span {
 }
 .contact-form-box .form-clt textarea {
   padding-bottom: 120px;
+}
+.contact-form-box .form-clt select.subject-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23626C74' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  cursor: pointer;
+}
+.contact-form-box .form-clt select.subject-select:invalid {
+  color: #999;
 }
 
 .counter-wrapper-2 {
@@ -2313,7 +2325,7 @@ span {
   color: var(--text);
 }
 .contact-middle-items .contact-form-box .form-clt textarea {
-  padding-bottom: 110px;
+  padding-bottom: 76px;
 }
 .contact-middle-items .contact-form-box .theme-btn {
   transition: all 0.4s ease-in-out;
