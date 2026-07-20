@@ -5726,7 +5726,7 @@ span {
 }
 
 .footer-widget-wrapper {
-  padding: 0 0 120px;
+  padding: 50px 0 100px;
 }
 @media (max-width: 1199px) {
   .footer-widget-wrapper {
@@ -6031,11 +6031,11 @@ span {
 .footer-info-bottom {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 120px;
+  margin-bottom: 60px;
 }
 @media (max-width: 1199px) {
   .footer-info-bottom {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: start;
@@ -6043,7 +6043,7 @@ span {
 }
 @media (max-width: 991px) {
   .footer-info-bottom {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
 }
 .footer-info-bottom .info-item {
@@ -12435,7 +12435,7 @@ span {
 }
 
 .service-section-2 {
-  border-radius: 115px 115px 0 0;
+  border-radius: 100px 100px 0 0;
   background: #031F3A;
   margin: 0 15px;
   padding-left: 80px;
@@ -15299,3 +15299,7 @@ span {
 }
 
 /* header call end */
+
+.no-wrap {
+    white-space: nowrap;
+}
