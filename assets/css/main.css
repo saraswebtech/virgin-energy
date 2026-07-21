@@ -2077,7 +2077,7 @@ span {
 }
 .contact-form-box .form-clt input, .contact-form-box .form-clt textarea, .contact-form-box .form-clt select {
   line-height: 1;
-  padding: 20px 20px;
+  padding: 17px 15px;
   width: 100%;
   text-transform: capitalize;
   color: var(--text);
@@ -2301,7 +2301,7 @@ span {
 }
 
 .contact-middle-items {
-  margin-top: 120px;
+  /* margin-top: 120px; */
 }
 .contact-middle-items .contact-form-box {
   border-radius: 10px;
@@ -2310,7 +2310,7 @@ span {
   padding: 50px 40px;
 }
 .contact-middle-items .contact-form-box h3 {
-  font-size: 42px;
+  font-size: 30px;
   font-weight: 400;
   margin-bottom: 20px;
 }
@@ -2319,13 +2319,13 @@ span {
   border: 1px solid rgba(0, 53, 102, 0.12);
   background: var(--white);
   line-height: 1;
-  padding: 20px 25px;
+  padding: 15px 15px;
   width: 100%;
   text-transform: capitalize;
   color: var(--text);
 }
 .contact-middle-items .contact-form-box .form-clt textarea {
-  padding-bottom: 76px;
+  padding-bottom: 0px;
 }
 .contact-middle-items .contact-form-box .theme-btn {
   transition: all 0.4s ease-in-out;
