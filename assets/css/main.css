@@ -703,11 +703,12 @@ span {
 }
 
 .about-right-content-style-2 .section-title h2 {
-  font-size: 46px;
+  font-size: 25px;
   font-weight: 500;
   max-width: 590px;
   letter-spacing: -1.38px;
   text-transform: none;
+  margin-left:50px;
 }
 
 @media (max-width: 1399px) {
@@ -747,9 +748,9 @@ span {
 }
 
 .about-right-content-style-2 p {
-  margin-top: 100px;
+  margin-top: 40px;
   max-width: 470px;
-  margin-left: 150px;
+  margin-left: 50px;
   text-transform: none;
 }
 
