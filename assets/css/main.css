@@ -8061,18 +8061,18 @@ span {
   color: var(--white);
 }
 .breadcrumb-wrapper .page-heading .breadcrumb-title {
-  font-size: 88px;
+  font-size: 50px;
   font-weight: 700;
   color: var(--white);
 }
 @media (max-width: 767px) {
   .breadcrumb-wrapper .page-heading .breadcrumb-title {
-    font-size: 85px;
+    font-size: 50px;
   }
 }
 @media (max-width: 575px) {
   .breadcrumb-wrapper .page-heading .breadcrumb-title {
-    font-size: 55px;
+    font-size: 50px;
   }
 }
 
@@ -13174,17 +13174,18 @@ span {
   border-radius: 12px;
 }
 .service-details-content h2 {
-  font-size: 46px;
+  font-size: 35px;
   font-weight: 500;
   margin-top: 20px;
 }
 @media (max-width: 767px) {
   .service-details-content h2 {
-    font-size: 38px;
+    font-size: 30px;
   }
 }
 .service-details-content p {
   margin-top: 20px;
+  text-align: justify;
 }
 .service-details-content .list-items {
   display: flex;
