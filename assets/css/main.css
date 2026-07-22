@@ -4509,6 +4509,80 @@ span {
   margin-bottom: 0;
 }
 
+.service-overview-section {
+  background-color: var(--white);
+  overflow: hidden;
+}
+
+.service-overview-image {
+  position: relative;
+}
+
+.service-overview-image img {
+  border-radius: 20px;
+  box-shadow: 0 10px 40px 0 rgba(29, 31, 21, 0.1);
+}
+
+.service-overview-title h2 {
+  font-size: 42px;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.service-overview-subtitle {
+  font-size: 18px;
+  color: var(--text);
+  margin-bottom: 0;
+}
+
+.service-overview-points {
+  background: #F5F5F5;
+  border-radius: 20px;
+  padding: 35px;
+}
+
+.service-points-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.service-points-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--header);
+  border-bottom: 1px solid rgba(25, 42, 25, 0.08);
+}
+
+.service-points-list li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.service-points-list li:first-child {
+  padding-top: 0;
+}
+
+.service-points-list li img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 991px) {
+  .service-overview-title {
+    margin: 30px 0;
+  }
+
+  .service-overview-title h2 {
+    font-size: 32px;
+  }
+}
+
 .resume-form-box {
   background: #F5F5F5;
   border-radius: 20px;
