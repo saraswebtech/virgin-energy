@@ -17961,7 +17961,7 @@ span {
 }
 
 .vertical-tab-btn.active {
-  background: var(--theme);
+  background: #01c5f6;
   color: var(--header);
   box-shadow: 0 4px 15px rgba(191, 221, 52, 0.3);
 }
@@ -18023,7 +18023,7 @@ span {
   bottom: 0;
   left: 0;
   right: 0;
-  background: var(--header);
+  background: #40163f;
   color: var(--white);
   padding: 20px 15px 15px;
   font-family: "DM Sans", sans-serif;
@@ -18206,4 +18206,20 @@ span {
 .color {
   color: #0077c7;
   text-transform: uppercase;
+}
+
+.heading-underline {
+  display: inline-block;
+  position: relative;
+}
+
+.heading-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 60px;
+  height: 3px;
+  background: #EA2E6E;
+  border-radius: 5px;
 }
