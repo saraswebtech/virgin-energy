@@ -1,0 +1,8 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 9" width="9" height="9">
+	<style>
+		.s0 { fill: none;stroke: #005db5 } 
+		.s1 { fill: #005db5 } 
+	</style>
+	<path fill-rule="evenodd" class="s0" d="m-28 4.5h33"/>
+	<path fill-rule="evenodd" class="s1" d="m4.5 9c-2.49 0-4.5-2.01-4.5-4.5 0-2.49 2.01-4.5 4.5-4.5 2.49 0 4.5 2.01 4.5 4.5 0 2.49-2.01 4.5-4.5 4.5z"/>
+</svg>

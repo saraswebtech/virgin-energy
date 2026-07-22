@@ -212,7 +212,7 @@ hr {
     color: inherit;
     border: 0;
     border-top: var(--bs-border-width) solid;
-    opacity: .25
+    /* opacity: .25 */
 }
 
 .h1,
