@@ -354,7 +354,7 @@ span {
 .about-image-items-style-1 .about-image {
   width: 370px;
   margin-top: 60px;
-  margin-left: -80px;
+  /* margin-left: -80px; */
 }
 
 @media (max-width: 1399px) {
@@ -375,43 +375,43 @@ span {
 }
 
 .about-content-style-1 .section-title h2 {
-  font-size: 40px;
+  text-transform: uppercase;
   font-weight: 500;
 }
 
 @media (max-width: 1399px) {
   .about-content-style-1 .section-title h2 {
-    font-size: 45px;
+    /* font-size: 45px; */
   }
 }
 
 @media (max-width: 1199px) {
   .about-content-style-1 .section-title h2 {
-    font-size: 45px;
+    /* font-size: 45px; */
   }
 }
 
 @media (max-width: 991px) {
   .about-content-style-1 .section-title h2 {
-    font-size: 37px;
+    /* font-size: 37px; */
   }
 }
 
 @media (max-width: 767px) {
   .about-content-style-1 .section-title h2 {
-    font-size: 35px;
+    /* font-size: 35px; */
   }
 }
 
 @media (max-width: 575px) {
   .about-content-style-1 .section-title h2 {
-    font-size: 30px;
+    /* font-size: 30px; */
   }
 }
 
 @media (max-width: 470px) {
   .about-content-style-1 .section-title h2 {
-    font-size: 25px;
+    /* font-size: 25px; */
   }
 }
 
@@ -430,7 +430,7 @@ span {
 }
 
 .about-content-style-1 .list-items ul li {
-  font-size: 18px;
+  /* font-size: 18px; */
   font-weight: 500;
 }
 
@@ -4512,6 +4512,7 @@ span {
 .service-overview-section {
   background-color: var(--white);
   overflow: hidden;
+  padding:40px 0;
 }
 
 .service-overview-image {
@@ -4524,7 +4525,8 @@ span {
 }
 
 .service-overview-title h2 {
-  font-size: 42px;
+  font-size: 20px;
+  text-transform: uppercase;
   margin-bottom: 15px;
   line-height: 1.2;
 }
@@ -4536,9 +4538,9 @@ span {
 }
 
 .service-overview-points {
-  background: #F5F5F5;
+  /* background: #F5F5F5; */
   border-radius: 20px;
-  padding: 35px;
+  /* padding: 35px; */
 }
 
 .service-points-list {
@@ -4552,7 +4554,6 @@ span {
   align-items: center;
   gap: 12px;
   padding: 12px 0;
-  font-size: 18px;
   font-weight: 500;
   color: var(--header);
   border-bottom: 1px solid rgba(25, 42, 25, 0.08);
@@ -5329,8 +5330,8 @@ span {
 }
 
 .choose-us-left-items-style-3 .choose-image img {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   border-radius: 20px;
 }
 
