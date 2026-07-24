@@ -29,7 +29,53 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+        .fa-spin {
+            animation-duration: 3s !important;
+        }
 
+
+        .icon-box {
+            width: 70px;
+            height: 70px;
+            min-width: 70px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 30px;
+            position: relative;
+        }
+
+        .icon-box::before {
+            content: "";
+            position: absolute;
+            inset: 8px;
+            border: 2px solid rgba(255, 255, 255, .35);
+            border-radius: 50%;
+        }
+
+        .green {
+            background: #0b7a33;
+        }
+
+        .blue {
+            background: #0d4c93;
+        }
+
+        .info-card h4 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #0b5e2a;
+            line-height: 1.3;
+            margin-bottom: 12px;
+        }
+
+        .blue+div h4 {
+            color: #0d4c93;
+        }
+    </style>
 </head>
 
 <body>
@@ -175,168 +221,7 @@
                 <div class="container">
                     <div class="page-heading">
                         <h1 class="breadcrumb-title">About Us</h1>
-                        <p class="text-info fw-normal fs-5 mt-1">Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit.</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- About Section Start -->
-            <section class="about-section section-padding fix">
-                <div class="container">
-                    <div class="row g-4">
-                        <div class="col-lg-4">
-                            <div class="about-image-items-style-1">
-                                <div class="section-title mb-0">
-                                    <h6 class="sub-title wow fadeInUp"><img src="assets/img/sub-title-1.svg"
-                                            alt="img">ABOUT COMPANY</h6>
-                                </div>
-                                <div class="about-image wow fadeInUp" data-wow-delay=".2s">
-                                    <img src="assets/img/home-1/about/about-01.png" alt="img">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="about-content-style-1">
-                                <div class="section-title mb-0">
-                                    <h2 class="text_invert-2">Discover our journey of delivering eco-friendly solar
-                                        power that empowers communities and protects the planet</h2>
-                                </div>
-                                <div class="list-items">
-                                    <ul class="wow fadeInUp" data-wow-delay=".2s">
-                                        <li>
-                                            <img src="assets/img/home-1/about/check-icon.svg" alt="img">
-                                            24/7 Customer Support
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/home-1/about/check-icon.svg" alt="img">
-                                            Lower Energy Costs
-                                        </li>
-                                    </ul>
-                                    <ul class="wow fadeInUp" data-wow-delay=".4s">
-                                        <li>
-                                            <img src="assets/img/home-1/about/check-icon.svg" alt="img">
-                                            Expert Team Members
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/home-1/about/check-icon.svg" alt="img">
-                                            Energy Independence
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="bottom-items">
-                                    <div class="icon-box-items wow fadeInUp" data-wow-delay=".6s">
-                                        <div class="icon">
-                                            <img src="assets/img/home-1/about/icon-1.svg" alt="img">
-                                        </div>
-                                        <div class="content">
-                                            <h2><span class="count">456</span>K+</h2>
-                                            <p>Our design philosophy is more than aesthetics</p>
-                                        </div>
-                                    </div>
-                                    <div class="icon-box-items wow fadeInUp" data-wow-delay=".8s">
-                                        <div class="icon">
-                                            <img src="assets/img/home-1/about/icon-2.svg" alt="img">
-                                        </div>
-                                        <div class="content">
-                                            <h2><span class="count">97</span>%</h2>
-                                            <p>Customers are served behind the digital marketing</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="about.html" class="theme-btn wow fadeInUp" data-wow-delay=".9s">
-                                    More About Us
-                                    <i class="fa-solid fa-arrow-up-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Marquee Section4 Start -->
-            <div class="marquee-section-2 fix marquee-style section-padding pt-0">
-                <div class="mycustom-marque">
-                    <div class="scrolling-wrap color-2">
-                        <div class="comm">
-                            <div></div>
-                            <div class="cmn-textslide"> Solar Panel</div>
-                            <div class="cmn-textslide"> Custom Services</div>
-                            <div class="cmn-textslide"> Repairing</div>
-                        </div>
-                        <div class="comm">
-                            <div></div>
-                            <div class="cmn-textslide"> Solar Panel</div>
-                            <div class="cmn-textslide"> Custom Services</div>
-                            <div class="cmn-textslide"> Repairing</div>
-                        </div>
-                        <div class="comm">
-                            <div></div>
-                            <div class="cmn-textslide"> Solar Panel</div>
-                            <div class="cmn-textslide"> Custom Services</div>
-                            <div class="cmn-textslide"> Repairing</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Work Prossec Section4 Start -->
-            <section class="work-prosec-section-4 section-padding section-bg-3">
-                <div class="work-right-shape d-none d-xl-block float-bob-y">
-                    <img src="assets/img/home-4/work-prossec/right-shape.png" alt="img">
-                </div>
-                <div class="work-left-shap d-xl-blocke float-bob-y">
-                    <img src="assets/img/home-4/work-prossec/left-shape.png" alt="img">
-                </div>
-                <div class="work-shape-1 d-none d-xl-block">
-                    <img src="assets/img/home-3/work-prosce/shape-01.png" alt="img">
-                </div>
-                <div class="work-shape-2 d-none d-xl-block">
-                    <img src="assets/img/home-3/work-prosce/shape-02.png" alt="img">
-                </div>
-                <div class="container container-2">
-                    <div class="section-title text-center">
-                        <h6 class="sub-title color-2 wow fadeInUp"><img src="assets/img/sub-title-3.svg" alt="img">OUR
-                            PROJECTS</h6>
-                        <h2 class="text-anim">We Following 3 Easy Steps <br> Finished our Works</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="work-prosec-card-style-3 style-2">
-                                <div class="icon color-2">
-                                    <img src="assets/img/home-3/work-prosce/icon-01.svg" alt="img">
-                                </div>
-                                <div class="content">
-                                    <h3>Start Planning</h3>
-                                    <p>Ecoly is a nonprofit environmental main dedicated to protecting planet the
-                                        through community empowerment</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                            <div class="work-prosec-card-style-3">
-                                <div class="icon color-2">
-                                    <img src="assets/img/home-3/work-prosce/icon-02.svg" alt="img">
-                                </div>
-                                <div class="content">
-                                    <h3>Research</h3>
-                                    <p>Ecoly is a nonprofit environmental main dedicated to protecting planet the
-                                        through community empowerment</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".7s">
-                            <div class="work-prosec-card-style-3 style-2">
-                                <div class="icon color-2">
-                                    <img src="assets/img/home-3/work-prosce/icon-03.svg" alt="img">
-                                </div>
-                                <div class="content">
-                                    <h3>Completed</h3>
-                                    <p>Ecoly is a nonprofit environmental main dedicated to protecting planet the
-                                        through community empowerment</p>
-                                </div>
-                            </div>
-                        </div>
+                        <p class="text-info fw-normal fs-5 mt-1">Powering a Sustainable Future with End-to-End Solar EPC Solutions</p>
                     </div>
                 </div>
             </section>
@@ -345,125 +230,414 @@
             <section class="about-section-2 section-padding fix">
                 <div class="container">
                     <div class="row g-4">
-                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="about-left-image-style-2 fix">
-                                <img data-speed=".8" src="assets/img/home-4/choose/choose-us-01.jpg" alt="img">
+                        <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="faq-left-image-style-6">
+                                <img src="assets/img/home-6/faq/faq-01.jpg" alt="img">
+                                <div class="white-shape">
+                                    <img src="assets/img/home-6/faq/white-shape.png" alt="img">
+                                </div>
+                                <div class="faq-contact">
+                                    <h3>Get Started
+                                        Free Call?</h3>
+                                    <div class="icon">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </div>
+                                    <p><a href="tel:+017937938">(+01)-793-7938</a></p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-7">
                             <div class="about-right-content-style-2">
                                 <div class="section-title mb-0">
-                                    <h6 class="sub-title wow fadeInUp"><img src="assets/img/sub-title-1.svg"
+                                    <h6 class="sub-title purple wow fadeInUp"><img src="assets/img/sub-title-1.svg"
                                             alt="img">ABOUT
                                         COMPANY</h6>
-                                    <h2 class="text_invert-2">Discover our journey of delivering eco-friendly solar
-                                        power
-                                        that empowers communities and protects the planet.</h2>
+                                    <h2 class="color text-anim">
+                                        <span class="utility-underline">Delivering</span> Reliable Solar Solutions
+                                    </h2>
+                                    <p class="pt-4 wow fadeInUp text-justify" data-wow-delay=".2s">At Virgin Energies,
+                                        we are
+                                        committed to accelerating the transition to clean, reliable, and affordable
+                                        energy. As a leading Solar EPC (Engineering, Procurement & Construction)
+                                        company, we provide end-to-end renewable energy solutions for residential,
+                                        commercial, industrial, institutional, and utility-scale projects.</p>
+                                    <p class="wow fadeInUp text-justify" data-wow-delay=".3s">
+                                        From initial consultation and system design to engineering, procurement,
+                                        installation, commissioning, and long-term maintenance, we deliver turnkey solar
+                                        solutions that help our customers reduce energy costs, improve operational
+                                        efficiency, and achieve their sustainability goals.
+                                    </p>
+                                    <p class="wow fadeInUp text-justify" data-wow-delay=".4s">
+                                        Our team combines technical expertise, quality engineering, and industry best
+                                        practices to ensure every project is executed safely, efficiently, and on
+                                        schedule.
+                                        Whether it is a rooftop installation for a home, a large industrial facility, or
+                                        a
+                                        multi-megawatt solar power plant, we focus on delivering reliable systems
+                                        designed
+                                        for maximum performance and long-term value.
+                                    </p>
                                 </div>
-                                <p class="wow fadeInUp" data-wow-delay=".2s">
-                                    We’re finding ways to bring energy to more people in more ways every day, so that
-                                    all of
-                                    us can be part of the changing energy system. Because Power ring Progress means
-                                    providing more energy across the country.
-                                </p>
+
                             </div>
                         </div>
                     </div>
                 </div>
-
-
             </section>
 
-            <!-- Industries Section Start -->
-            <section class="testimonial-section-2 section-padding fix">
+            <!-- why choose Us Section2 Start -->
+            <section class="about-feature-section-2  fix">
                 <div class="container">
                     <div class="section-title text-center">
-                        <h6 class="sub-title wow fadeInUp"><img src="assets/img/sub-title-1.svg" alt="img">OUR
-                            TESTIMONIALS</h6>
-                        <h2 class="text-anim">Industries Surve
+                        <h6 class="sub-title purple wow fadeInUp"><img src="assets/img/sub-title-1.svg" alt="img">WHY
+                            CHOOSE
+                        </h6>
+                        <h2 class="color text-anim">
+                            Why Choose Virgin Energies?
                         </h2>
+                        <hr style="width:5%; height:3px; border:none; background-color:#ad1888; margin:15px auto;">
                     </div>
-                    <div class="swiper testimonial-slider-2">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="testimonial-box-items-style-2">
-                                    <div class="client-info">
-                                        <div class="client-img">
-                                            <img src="assets/img/home-1/testimonial/client-01.png" alt="img">
-                                        </div>
-                                        <div class="client-content">
-                                            <h5>Commercial & Industrial</h5>
-                                            <p>Marketing Director</p>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-content">
-                                        <div class="star">
-                                            <i class="fa-solid fa-star-sharp"></i>
-                                            <i class="fa-solid fa-star-sharp"></i>
-                                            <i class="fa-solid fa-star-sharp"></i>
-                                            <i class="fa-solid fa-star-sharp"></i>
-                                            <i class="fa-solid fa-star-sharp"></i>
-                                        </div>
-                                        <p class="testi-text">"From logo design to marketing campaigns, everything was
-                                            flawless. Our sales and online engagement have doubled since the
-                                            rebranding."</p>
-                                        <h5>“GREAT DESIGN SERVICES”</h5>
-                                    </div>
+                    <div class="about-feature-wrapper-2 style-2">
+                        <div class="about-shape">
+                            <img src="assets/img/home-2/about/about-shape.png" alt="img">
+                        </div>
+                        <div class="row g-4 align-items-center">
+                            <div class="col-lg-6 order-2 order-lg-1">
+                                <div class="about-feature-image-items-style-2">
+                                    <img src="assets/img/home-2/about-feature/about-feature-01.png" alt="img">
+
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial-box-items-style-2">
-                                    <div class="client-info">
-                                        <div class="client-img">
-                                            <img src="assets/img/home-1/testimonial/client-02.png" alt="img">
+                            <div class="col-lg-6 order-1 order-lg-2 wow fadeInUp" data-wow-delay=".5s">
+                                <div class="about-feature-content-items-style-2">
+                                    <div class="about-feature-icon-box mt-0">
+                                        <div class="icon">
+                                            <img src="assets/img/home-2/about-feature/icon-01.svg" alt="img">
                                         </div>
-                                        <div class="client-content">
-                                            <h5>Institutional</h5>
-                                            <p>Marketing Director</p>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-content">
-                                        <div class="star">
-                                            <i class="fa-solid fa-star-sharp"></i>
-                                            <i class="fa-solid fa-star-sharp"></i>
-                                            <i class="fa-solid fa-star-sharp"></i>
-                                            <i class="fa-solid fa-star-sharp"></i>
-                                            <i class="fa-solid fa-star-sharp"></i>
-                                        </div>
-                                        <p class="testi-text">"From logo design to marketing campaigns, everything was
-                                            flawless. Our sales and online engagement have doubled since the
-                                            rebranding."</p>
-                                        <h5>“GREAT DESIGN SERVICES”</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial-box-items-style-2">
-                                    <div class="client-info">
-                                        <div class="client-img">
-                                            <img src="assets/img/home-1/testimonial/client-03.png" alt="img">
-                                        </div>
-                                        <div class="client-content">
-                                            <h5>Amelia Johnson</h5>
-                                            <p>Marketing Director</p>
+                                        <div class="content">
+                                            <h4 class="color">Turnkey EPC Expertise</h4>
+                                            <p>Complete end-to-end management, from design to commissioning.</p>
                                         </div>
                                     </div>
-                                    <div class="testimonial-content">
-                                        <div class="star">
-                                            <i class="fa-solid fa-star-sharp"></i>
-                                            <i class="fa-solid fa-star-sharp"></i>
-                                            <i class="fa-solid fa-star-sharp"></i>
-                                            <i class="fa-solid fa-star-sharp"></i>
-                                            <i class="fa-solid fa-star-sharp"></i>
+                                    <div class="about-feature-icon-box">
+                                        <div class="icon">
+                                            <img src="assets/img/home-2/about-feature/icon-02.svg" alt="img">
                                         </div>
-                                        <p class="testi-text">"From logo design to marketing campaigns, everything was
-                                            flawless. Our sales and online engagement have doubled since the
-                                            rebranding."</p>
-                                        <h5>“GREAT DESIGN SERVICES”</h5>
+                                        <div class="content">
+                                            <h4 class="color">Precision Engineering</h4>
+                                            <p>Custom solar designs with high-grade, in-house fabricated structures.</p>
+                                        </div>
+                                    </div>
+                                    <div class="about-feature-icon-box">
+                                        <div class="icon">
+                                            <img src="assets/img/home-2/about-feature/icon-03.svg" alt="img">
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="color">Uncompromised Quality & Safety</h4>
+                                            <p>Strict adherence to international quality and HSE standards.</p>
+                                        </div>
+                                    </div>
+                                    <div class="about-feature-icon-box">
+                                        <div class="icon">
+                                            <img src="assets/img/home-2/about-feature/icon-03.svg" alt="img">
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="color">Transparent & Reliable</h4>
+                                            <p>Clear pricing, timely project delivery, and robust long-term O&M support.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- mission Section Start -->
+            <section class="about-section-5 section-padding fix">
+                <div class="container container-2">
+                    <div class="row g-4">
+                        <div class="col-xl-12 col-lg-12 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="about-middle-bottom-style-5">
+                                <ul class="nav">
+                                    <li class="nav-item wow fadeInUp" data-wow-delay=".2s">
+                                        <a href="#thumb1" data-bs-toggle="tab" class="nav-link active">
+                                            OUR VISION AND MISSION
+                                        </a>
+                                    </li>
+                                    <li class="nav-item wow fadeInUp " data-wow-delay=".4s">
+                                        <a href="#thumb2" data-bs-toggle="tab" class="nav-link ">
+                                            OUR CORE VALUE
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div id="thumb1" class="tab-pane fade show active">
+                                        <div class="row d-lg-flex">
+                                            <div class="col-xl-6 col-lg-4 col-md-6 col-sm-6 ">
+                                                <div class="feature-box-items-2">
+                                                    <h2>01</h2>
+                                                    <div class="content">
+                                                        <h4 class="color">Our Vision</h4>
+                                                        <p>To become one of India's most trusted renewable energy
+                                                            companies by delivering innovative, reliable, and
+                                                            sustainable clean energy solutions that empower businesses,
+                                                            communities, and future generations.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-4 col-md-6 col-sm-6 ">
+                                                <div class="feature-box-items-2">
+                                                    <h2>02</h2>
+                                                    <div class="content">
+                                                        <h4 class="color">Our Mission</h4>
+                                                        <p>To make renewable energy accessible, affordable, and
+                                                            dependable through advanced engineering, quality execution,
+                                                            and exceptional customer service while contributing to a
+                                                            cleaner and greener future.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="thumb2" class="tab-pane fade  ">
+                                        <ul>
+                                            <li>
+                                                <p><i class="fa-solid fa-cog fa-spin me-2"></i><span
+                                                        class="fs-5 fw-bold">Integrity:</span> We conduct every
+                                                    project with honesty, transparency, and
+                                                    accountability, building lasting relationships based on trust.</p>
+                                            </li>
+                                            <li>
+                                                <p><i class="fa-solid fa-cog fa-spin me-2"></i><span
+                                                        class=" fs-5 fw-bold">Innovation:</span> We continuously
+                                                    adopt modern technologies, engineering practices, and smart energy
+                                                    solutions to maximize system performance and customer value.</p>
+                                            </li>
+                                            <li>
+                                                <p><i class="fa-solid fa-cog fa-spin me-2"></i><span
+                                                        class=" fs-5 fw-bold">Safety:</span> Safety is integrated
+                                                    into every stage of our operations. We strive to provide a safe
+                                                    working environment for our employees, customers, contractors, and
+                                                    partners.</p>
+                                            </li>
+                                            <li>
+                                                <p><i class="fa-solid fa-cog fa-spin me-2"></i><span
+                                                        class=" fs-5 fw-bold">Sustainability:</span> We are
+                                                    committed to supporting environmental protection through renewable
+                                                    energy solutions that reduce carbon emissions and promote
+                                                    responsible resource use.</p>
+                                            </li>
+                                            <li>
+                                                <p><i class="fa-solid fa-cog fa-spin me-2"></i><span
+                                                        class=" fs-5 fw-bold">Excellence:</span> From design and
+                                                    engineering to installation and customer support, we aim to deliver
+                                                    quality, reliability, and continuous improvement in everything we
+                                                    do.</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- commitment Section4 Start -->
+            <section class="pricing-section fix">
+                <div class="container container-2">
+                    <div class="section-title text-center">
+                        <h6 class="sub-title color-2 wow fadeInUp"><img src="assets/img/sub-title-3.svg" alt="img">OUR
+                            PRICING</h6>
+                        <h2 class="color text-anim">Our Commitment</h2>
+                        <hr style="width:5%; height:3px; border:none; background-color:#ad1888; margin:15px auto;">
+                        <p class="mt-3 wow fadeInUp" data-wow-delay=".4s">
+                            We don't just install solar panels—we build long-term, high-performance energy solutions.
+                            By pairing internationally accepted<br> engineering standards with trusted equipment
+                            manufacturers, we ensure every system delivers maximum power output,<br> long-term
+                            durability,
+                            and measurable cost savings
+                        </p>
+                    </div>
+
+                    <div class="row pricing-row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="pricing-box-items">
+                                <div class="info-card text-center">
+                                    <div
+                                        class="icon-box green d-flex align-items-center justify-content-center mx-auto mb-3">
+                                        <i class="fa-solid fa-certificate"></i>
+                                    </div>
+                                    <h4 class="mb-2">Certifications & Compliance</h4>
+                                    <span class="line mx-auto"></span>
+                                </div>
+                                <ul class="pricing-list pb-4">
+                                    <li><i class="fa-solid fa-cog fa-spin"></i> Compliance with applicable BIS and MNRE
+                                        requirements</li>
+                                    <li><i class="fa-solid fa-cog fa-spin"></i> Electrical installation as per relevant
+                                        Indian Standards</li>
+                                    <li><i class="fa-solid fa-cog fa-spin"></i> Quality inspections throughout project
+                                        execution</li>
+                                    <li><i class="fa-solid fa-cog fa-spin"></i> Factory-tested equipment from trusted
+                                        manufacturers</li>
+                                    <li><i class="fa-solid fa-cog fa-spin"></i> Complete project documentation and
+                                        testing before handover</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="pricing-box-items">
+                                <div class="info-card  text-center">
+                                    <div
+                                        class="icon-box blue d-flex align-items-center justify-content-center mx-auto mb-3">
+                                        <i class="fa fa-shield"></i>
+                                    </div>
+                                    <div class="ms-3">
+                                        <h4>Health, Safety & Environment Policy</h4>
+                                    </div>
+                                </div>
+                                <ul class="pricing-list">
+                                    <li><i class="fa-solid fa-cog fa-spin"></i>Compliance with applicable health and
+                                        safety regulations.</li>
+                                    <li><i class="fa-solid fa-cog fa-spin"></i>Risk assessment before commencement of
+                                        every project.</li>
+                                    <li><i class="fa-solid fa-cog fa-spin"></i>Use of appropriate personal protective
+                                        equipment (PPE).</li>
+                                    <li><i class="fa-solid fa-cog fa-spin"></i>Safe work practices for electrical and
+                                        working-at-height activities.</li>
+
+                                    <li><i class="fa-solid fa-cog fa-spin"></i>Environmentally responsible waste
+                                        management & practical recycling .</li>
+                                    <li><i class="fa-solid fa-cog fa-spin"></i>Continuous improvement through
+                                        inspections and corrective actions.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- what we do Section4 Start -->
+            <section class="service-section-4 section-padding fix">
+                <div class="container container-2">
+                    <div class="section-title text-center">
+                        <h6 class="sub-title purple wow fadeInUp"><img src="assets/img/sub-title-1.svg" alt="img">Our
+                            Core Services</h6>
+                        <h2 class="color text-anim">
+                            What We Do
+                        </h2>
+                        <hr style="width:5%; height:3px; border:none; background-color:#ad1888; margin:15px auto;">
+                        <h5 class="pt-4 pb-4  wow fadeInUp text-center" data-wow-delay=".2s">At Virgin Energies, we
+                            provide complete end-to-end renewable energy solutions tailored for residential, commercial,
+                            industrial,<br> and utility-scale projects.</h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="service-card-items-style-4">
+                                <div class="content">
+                                    <div class="icon-items-area">
+                                        <div class="icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60"
+                                                viewBox="0 0 60 60" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M44.0625 9.37524C40.4406 9.37524 37.5 12.3159 37.5 15.9377C37.5 19.5596 40.4406 22.5003 44.0625 22.5003C47.6844 22.5003 50.625 19.5596 50.625 15.9377C50.625 12.3159 47.6844 9.37524 44.0625 9.37524ZM44.0625 11.2502C46.6494 11.2502 48.75 13.3509 48.75 15.9377C48.75 18.5246 46.6494 20.6252 44.0625 20.6252C41.4756 20.6252 39.375 18.5246 39.375 15.9377C39.375 13.3509 41.4756 11.2502 44.0625 11.2502Z"
+                                                    fill="#41C575" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M45 27.1875V25.3125C45 24.795 44.5799 24.375 44.0625 24.375C43.5451 24.375 43.125 24.795 43.125 25.3125V27.1875C43.125 27.705 43.5451 28.125 44.0625 28.125C44.5799 28.125 45 27.705 45 27.1875Z"
+                                                    fill="#41C575" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M53.1628 23.7122L51.2878 21.8372C50.9219 21.4716 50.3278 21.4716 49.9619 21.8372C49.596 22.2028 49.596 22.7972 49.9619 23.1628L51.8369 25.0378C52.2028 25.4035 52.7969 25.4035 53.1628 25.0378C53.5286 24.6722 53.5286 24.0778 53.1628 23.7122Z"
+                                                    fill="#41C575" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M55.313 15H53.438C52.9206 15 52.5005 15.42 52.5005 15.9375C52.5005 16.455 52.9206 16.875 53.438 16.875H55.313C55.8304 16.875 56.2505 16.455 56.2505 15.9375C56.2505 15.42 55.8304 15 55.313 15Z"
+                                                    fill="#41C575" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M51.8369 6.83721L49.9619 8.71221C49.596 9.07783 49.596 9.67221 49.9619 10.0378C50.3278 10.4035 50.9219 10.4035 51.2878 10.0378L53.1628 8.16283C53.5286 7.79721 53.5286 7.20283 53.1628 6.83721C52.7969 6.47158 52.2028 6.47158 51.8369 6.83721Z"
+                                                    fill="#41C575" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M38.1628 8.71221L36.2878 6.83721C35.9219 6.47158 35.3278 6.47158 34.9619 6.83721C34.596 7.20283 34.596 7.79721 34.9619 8.16283L36.8369 10.0378C37.2028 10.4035 37.7969 10.4035 38.1628 10.0378C38.5286 9.67221 38.5286 9.07783 38.1628 8.71221Z"
+                                                    fill="#41C575" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M43.125 4.68739V6.56236C43.125 7.07988 43.5451 7.49999 44.0625 7.49999C44.5799 7.49999 45 7.07988 45 6.56236V4.68739C45 4.16987 44.5799 3.74976 44.0625 3.74976C43.5451 3.74976 43.125 4.16987 43.125 4.68739Z"
+                                                    fill="#41C575" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M36.8369 21.8372L34.9619 23.7122C34.596 24.0778 34.596 24.6722 34.9619 25.0378C35.3278 25.4035 35.9219 25.4035 36.2878 25.0378L38.1628 23.1628C38.5286 22.7972 38.5286 22.2028 38.1628 21.8372C37.7969 21.4716 37.2028 21.4716 36.8369 21.8372Z"
+                                                    fill="#41C575" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M34.688 15H32.813C32.2956 15 31.8755 15.42 31.8755 15.9375C31.8755 16.455 32.2956 16.875 32.813 16.875H34.688C35.2054 16.875 35.6255 16.455 35.6255 15.9375C35.6255 15.42 35.2054 15 34.688 15Z"
+                                                    fill="#41C575" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M6.29913 31.875L3.77819 21.7903C3.70788 21.51 3.77069 21.2128 3.94881 20.9859C4.126 20.7581 4.39881 20.625 4.68756 20.625H32.8126C33.3301 20.625 33.7501 21.045 33.7501 21.5625C33.7501 22.08 33.3301 22.5 32.8126 22.5H25.576L27.9198 31.875H36.3001L35.4188 28.3528C35.2932 27.8503 35.5988 27.3413 36.1013 27.2156C36.6029 27.09 37.1129 27.3956 37.2385 27.8972L38.2323 31.875H45.6741L45.4969 31.1653C45.3713 30.6628 45.6769 30.1537 46.1785 30.0281C46.681 29.9025 47.1901 30.2081 47.3157 30.7097L47.6073 31.875H48.7501C49.2676 31.875 49.6876 32.295 49.6876 32.8125C49.6876 33.33 49.2676 33.75 48.7501 33.75H48.076L50.5969 43.8347C50.6673 44.115 50.6044 44.4122 50.4263 44.6391C50.2491 44.8669 49.9763 45 49.6876 45H30.9376V54.375H55.3126C55.8301 54.375 56.2501 54.795 56.2501 55.3125C56.2501 55.83 55.8301 56.25 55.3126 56.25H4.68756C4.17006 56.25 3.75006 55.83 3.75006 55.3125C3.75006 54.795 4.17006 54.375 4.68756 54.375H23.4376V45H10.3126C9.88225 45 9.50725 44.7075 9.40319 44.2903L6.76788 33.75H5.62506C5.10756 33.75 4.68756 33.33 4.68756 32.8125C4.68756 32.295 5.10756 31.875 5.62506 31.875H6.29913ZM25.3126 45V54.375H29.0626V45H25.3126ZM18.4866 43.125L16.1429 33.75H8.701L11.0448 43.125H18.4866ZM18.076 33.75L20.4198 43.125H28.7991L26.4554 33.75H18.076ZM28.3885 33.75L30.7323 43.125H39.1116L36.7679 33.75H28.3885ZM46.1429 33.75H38.701L41.0448 43.125H48.4866L46.1429 33.75ZM5.8885 22.5L8.23225 31.875H15.6751L13.3313 22.5H5.8885ZM15.2635 22.5L17.6073 31.875H25.9876L23.6438 22.5H15.2635Z"
+                                                    fill="#41C575" />
+                                            </svg>
+                                        </div>
+                                        <h3>01</h3>
+                                    </div>
+                                    <h4 class="pb-4"><a href="solar-epc-services.html">Solar Power Solutions</a></h4>
+                                    <p>Residential Rooftops, Commercial & Industrial Solar, Ground-Mounted Power
+                                        Plants, and Solar Carports.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="service-card-items-style-4">
+                                <div class="content">
+                                    <div class="icon-items-area">
+                                        <div class="icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60"
+                                                viewBox="0 0 60 60" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M27.1865 40.3128H24.374C24.005 40.3128 23.67 40.0963 23.519 39.7597C23.3675 39.4226 23.428 39.0285 23.6735 38.7525L31.1735 30.3152C31.432 30.0243 31.8435 29.9235 32.207 30.0617C32.571 30.1999 32.8115 30.5487 32.8115 30.9381V36.563H35.624C35.993 36.563 36.328 36.7795 36.479 37.1165C36.6305 37.4532 36.57 37.8473 36.3245 38.1233L28.8245 46.5606C28.566 46.8515 28.1545 46.9527 27.791 46.8141C27.427 46.6759 27.1865 46.3271 27.1865 45.9381V40.3128ZM30.9365 33.4036L26.4615 38.4379H28.124C28.642 38.4379 29.0615 38.8576 29.0615 39.3754V43.4721L33.5365 38.4379H31.874C31.356 38.4379 30.9365 38.0182 30.9365 37.5004V33.4036Z"
+                                                    fill="#192A19" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M27.2545 10.3127C27.4551 8.91868 28.102 7.61743 29.1089 6.60962C30.3398 5.37868 32.0086 4.68774 33.7495 4.68774H38.4379C38.9554 4.68774 39.3754 5.10774 39.3754 5.62524V8.43774H45.937C46.4545 8.43774 46.8745 8.85774 46.8745 9.37524C46.8745 9.89274 46.4545 10.3127 45.937 10.3127H39.3754V15.9377H45.937C46.4545 15.9377 46.8745 16.3577 46.8745 16.8752C46.8745 17.3927 46.4545 17.8127 45.937 17.8127H39.3754V20.6252C39.3754 21.1427 38.9554 21.5627 38.4379 21.5627C38.4379 21.5627 36.1626 21.5627 33.7495 21.5627C32.0086 21.5627 30.3398 20.8718 29.1089 19.6409C28.102 18.6331 27.4551 17.3318 27.2545 15.9377H24.3745C23.1501 15.9377 22.1076 15.1549 21.7223 14.0627H8.43701C7.69076 14.0627 6.97545 14.359 6.44857 14.8868C5.92076 15.4137 5.62451 16.129 5.62451 16.8752V40.3127C5.62451 41.059 5.92076 41.7743 6.44857 42.3012C6.97545 42.829 7.69076 43.1252 8.43701 43.1252H9.37451V40.4365C9.37451 39.5693 9.61545 38.719 10.0701 37.9802C11.1754 36.184 13.687 32.1031 15.3661 29.3731C16.5604 27.4324 18.6764 26.2502 20.9554 26.2502H34.4114C36.6558 26.2502 38.7436 27.3968 39.9483 29.2896L44.6283 36.6443L52.3326 37.9287C54.5929 38.3046 56.2495 40.2602 56.2495 42.5524V47.8127C56.2495 48.559 55.9533 49.2743 55.4255 49.8012C54.8986 50.329 54.1833 50.6252 53.437 50.6252H51.4842C51.037 53.284 48.7223 55.3127 45.937 55.3127C43.1517 55.3127 40.837 53.284 40.3898 50.6252H25.2342C24.787 53.284 22.4723 55.3127 19.687 55.3127C16.9017 55.3127 14.587 53.284 14.1398 50.6252H12.187C11.4408 50.6252 10.7254 50.329 10.1986 49.8012C9.67076 49.2743 9.37451 48.559 9.37451 47.8127V45.0002H8.43701C7.19389 45.0002 6.00139 44.5062 5.12201 43.6277C4.24357 42.7484 3.74951 41.5559 3.74951 40.3127C3.74951 34.3624 3.74951 22.8256 3.74951 16.8752C3.74951 15.6321 4.24357 14.4396 5.12201 13.5602C6.00139 12.6818 7.19389 12.1877 8.43701 12.1877H21.7223C22.1076 11.0956 23.1501 10.3127 24.3745 10.3127H27.2545ZM19.687 45.9377C21.757 45.9377 23.437 47.6177 23.437 49.6877C23.437 51.7577 21.757 53.4377 19.687 53.4377C17.617 53.4377 15.937 51.7577 15.937 49.6877C15.937 47.6177 17.617 45.9377 19.687 45.9377ZM45.937 45.9377C48.007 45.9377 49.687 47.6177 49.687 49.6877C49.687 51.7577 48.007 53.4377 45.937 53.4377C43.867 53.4377 42.187 51.7577 42.187 49.6877C42.187 47.6177 43.867 45.9377 45.937 45.9377ZM20.9948 28.1252H20.9554C19.327 28.1252 17.8158 28.9699 16.9626 30.3565C15.2836 33.0856 12.772 37.1665 11.6667 38.9627C11.3939 39.4062 11.2495 39.9162 11.2495 40.4365V47.8127C11.2495 48.0612 11.3479 48.3002 11.5242 48.4756C11.6995 48.6518 11.9386 48.7502 12.187 48.7502H14.1398C14.587 46.0915 16.9017 44.0627 19.687 44.0627C22.4723 44.0627 24.787 46.0915 25.2342 48.7502H40.3898C40.837 46.0915 43.1517 44.0627 45.937 44.0627C48.7223 44.0627 51.037 46.0915 51.4842 48.7502H53.437C53.6854 48.7502 53.9245 48.6518 54.0998 48.4756C54.2761 48.3002 54.3745 48.0612 54.3745 47.8127V42.5524C54.3745 41.1771 53.3808 40.0034 52.0242 39.7774L43.9842 38.4377C43.9842 38.4377 40.957 38.4377 39.3754 38.4377C38.8579 38.4377 38.4379 38.0177 38.4379 37.5002C38.4379 36.9827 38.8579 36.5627 39.3754 36.5627H42.3539L38.3667 30.2965C37.5061 28.9437 36.0145 28.1252 34.4114 28.1252C31.8305 28.1252 28.1686 28.1252 25.5876 28.1252C23.9845 28.1252 22.4929 28.9437 21.6323 30.2965L17.6451 36.5627H20.6245C20.8729 36.5627 21.112 36.6612 21.2873 36.8374C21.4636 37.0127 21.562 37.2518 21.562 37.5002C21.562 37.7487 21.4636 37.9877 21.2873 38.1631C21.112 38.3393 20.8729 38.4377 20.6245 38.4377C19.0242 38.4377 15.937 38.4377 15.937 38.4377C15.5948 38.4377 15.2798 38.2512 15.1148 37.9512C14.9508 37.6512 14.962 37.2856 15.1458 36.9968C15.1458 36.9968 18.1064 32.3449 20.0508 29.2896C20.3226 28.8621 20.6404 28.4721 20.9948 28.1252ZM37.5004 19.6877V6.56274H33.7495C32.5064 6.56274 31.3139 7.05681 30.4345 7.93524C29.5561 8.81462 29.062 10.0071 29.062 11.2502V15.0002C29.062 16.2434 29.5561 17.4359 30.4345 18.3152C31.3139 19.1937 32.5064 19.6877 33.7495 19.6877H37.5004ZM27.187 12.1877H24.3745C23.857 12.1877 23.437 12.6077 23.437 13.1252C23.437 13.6427 23.857 14.0627 24.3745 14.0627H27.187V12.1877Z"
+                                                    fill="#192A19" />
+                                            </svg>
+                                        </div>
+                                        <h3>02</h3>
+                                    </div>
+
+                                    <h4 class="pb-4"><a href="solar-epc-services.html">Energy Storage &
+                                            Infrastructure</a></h4>
+                                    <p class="pb-4">Battery Energy Storage Systems (BESS) and EV Charging
+                                        Infrastructure.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="service-card-items-style-4">
+                                <div class="content">
+                                    <div class="icon-items-area">
+                                        <div class="icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60"
+                                                viewBox="0 0 60 60" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M42.187 18.7499H39.3745C39.0055 18.7499 38.6705 18.5333 38.5195 18.1967C38.368 17.8596 38.4285 17.4655 38.674 17.1895L46.174 8.75223C46.4325 8.46127 46.844 8.36047 47.2075 8.49867C47.5715 8.63687 47.812 8.98572 47.812 9.37512V15H50.6245C50.9935 15 51.3285 15.2165 51.4795 15.5535C51.631 15.8902 51.5705 16.2843 51.325 16.5603L43.825 24.9976C43.5665 25.2886 43.155 25.3897 42.7915 25.2511C42.4275 25.1129 42.187 24.7641 42.187 24.3751V18.7499ZM45.937 11.8407L41.462 16.8749H43.1245C43.6425 16.8749 44.062 17.2946 44.062 17.8124V21.9092L48.537 16.8749H46.8745C46.3565 16.8749 45.937 16.4552 45.937 15.9374V11.8407Z"
+                                                    fill="#41C575" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M26.2495 55.3125V43.125C26.2495 42.2916 26.6114 41.5434 27.187 41.0288V35.4881L9.62107 40.2797C9.21045 40.3913 8.77545 40.2122 8.56264 39.8438C8.34982 39.4753 8.4117 39.0094 8.71451 38.7094L21.7973 25.7437C22.0008 25.5422 22.2848 25.4447 22.5689 25.4784L25.8858 25.8778C26.0864 25.5113 26.3358 25.1737 26.6236 24.8737L24.562 22.125C24.3904 21.8962 24.3323 21.6009 24.4055 21.3244L29.093 3.51188C29.2017 3.09938 29.5739 2.8125 29.9995 2.8125C30.4251 2.8125 30.7973 3.09938 30.9061 3.51188L35.5936 21.3244C35.6667 21.6009 35.6086 21.8962 35.437 22.125L33.3755 24.8737C33.6633 25.1737 33.9126 25.5113 34.1133 25.8778L37.4301 25.4784C37.7142 25.4447 37.9983 25.5422 38.2017 25.7437L51.2845 38.7094C51.5873 39.0094 51.6492 39.4753 51.4364 39.8438C51.2236 40.2122 50.7886 40.3913 50.3779 40.2797L32.812 35.4881V41.0288C33.3876 41.5434 33.7495 42.2916 33.7495 43.125V55.3125H54.3745C54.892 55.3125 55.312 55.7325 55.312 56.25C55.312 56.7675 54.892 57.1875 54.3745 57.1875H5.62451C5.10701 57.1875 4.68701 56.7675 4.68701 56.25C4.68701 55.7325 5.10701 55.3125 5.62451 55.3125H26.2495ZM31.8745 55.3125V43.125C31.8745 42.6075 31.4545 42.1875 30.937 42.1875C30.3333 42.1875 29.6658 42.1875 29.062 42.1875C28.5445 42.1875 28.1245 42.6075 28.1245 43.125V55.3125H31.8745ZM30.937 32.7188C30.6342 32.7797 30.3201 32.8125 29.9995 32.8125C29.6789 32.8125 29.3648 32.7797 29.062 32.7188V40.3125H30.937V32.7188ZM34.6683 27.6994C34.6804 27.84 34.687 27.9816 34.687 28.125C34.687 29.6812 33.9267 31.0613 32.7576 31.9144L33.5386 33.7434L47.4342 37.5328L37.2042 27.3947L34.6683 27.6994ZM25.3308 27.6994L22.7948 27.3947L12.5648 37.5328L26.4604 33.7434L27.2414 31.9144C26.0723 31.0613 25.312 29.6812 25.312 28.125C25.312 27.9816 25.3186 27.84 25.3308 27.6994ZM29.9995 25.3125C31.552 25.3125 32.812 26.5725 32.812 28.125C32.812 29.6775 31.552 30.9375 29.9995 30.9375C28.447 30.9375 27.187 29.6775 27.187 28.125C27.187 26.5725 28.447 25.3125 29.9995 25.3125ZM31.8304 23.8088L33.6651 21.3628L29.9995 7.43344L26.3339 21.3628L28.1686 23.8088C28.7311 23.5697 29.3498 23.4375 29.9995 23.4375C30.6492 23.4375 31.2679 23.5697 31.8304 23.8088Z"
+                                                    fill="#41C575" />
+                                            </svg>
+                                        </div>
+                                        <h3>03</h3>
+                                    </div>
+                                    <h4 class="pb-4"><a href="solar-epc-services.html">Engineering & Operations</a></h4>
+                                    <p>Solar Operations & Maintenance, Energy Audits, Project Consultancy, & Custom
+                                        Structure Design & Fabrication.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </section>
