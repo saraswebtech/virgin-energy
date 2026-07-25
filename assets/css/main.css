@@ -251,20 +251,20 @@ h1 {
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 129%;
 }
 
 @media (max-width: 1399px) {
   h2 {
-    font-size: 45px;
+    font-size: 30px;
   }
 }
 
 @media (max-width: 1199px) {
   h2 {
-    font-size: 45px;
+    font-size: 30px;
   }
 }
 
@@ -1449,7 +1449,7 @@ span {
 
 .about-content-items-style-6 .bottom-items-area .list-items {
   border-right: 1px solid #D9D9D9;
-  padding-right: 50px;
+  padding-right: 39px;
 }
 
 @media (max-width: 1199px) {
@@ -4854,7 +4854,7 @@ span {
 .choose-image-style-1 {
   position: relative;
   z-index: 9;
-  max-width: 549px;
+  max-width: 461px;
   border-radius: 12px;
 }
 
@@ -5270,7 +5270,7 @@ span {
 }
 
 .feature-section-3 {
-  background-color: var(--theme-3);
+  background-color: #033e8d;
   position: relative;
   z-index: 9;
 }
@@ -5305,10 +5305,11 @@ span {
 
 .feature-icon-items-3 p {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--white);
   margin-top: 20px;
-  max-width: 180px;
+  max-width: 230px;
+  /* text-transform: uppercase; */
 }
 
 @media (max-width: 575px) {
@@ -6392,7 +6393,7 @@ span {
 }
 
 .feature-box-items-style-6 .content h4 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   margin-bottom: 8px;
 }
@@ -9018,7 +9019,7 @@ span {
 }
 
 .header-4.header-5 .sidebar__toggle {
-  background-color: #111111;
+  /* background-color: #111111; */
   color: var(--white);
 }
 
@@ -9151,11 +9152,11 @@ span {
 
 .header-4 .sidebar__toggle {
   width: 47px;
-  height: 47px;
+  height: 20px;
   line-height: 47px;
   text-align: center;
   border-radius: 50%;
-  background-color: rgba(121, 185, 0, 0.2);
+  /* background-color: rgba(121, 185, 0, 0.2); */
   color: var(--white);
   display: flex;
   align-items: center;
@@ -9181,21 +9182,21 @@ span {
 
 .header-4 .sidebar__toggle .header-bar span:first-child {
   top: 0;
-  background: var(--white);
-  left: 16px;
-  width: 15px;
+  background: #000;
+  /* left: 16px; */
+  width: 30px;
 }
 
 .header-4 .sidebar__toggle .header-bar span:nth-child(2) {
   top: 44%;
-  background: var(--white);
+  background: #000;
   width: 30px;
 }
 
 .header-4 .sidebar__toggle .header-bar span:last-child {
   bottom: 0;
-  background: var(--white);
-  width: 15px;
+  background: #000;
+  width: 30px;
 }
 
 .header-4 .sidebar__toggle .header-bar.active span:first-child {
@@ -14805,7 +14806,8 @@ span {
   margin-top: 40px;
   transition: all 0.4s ease-in-out;
   position: relative;
-  font-size: 28px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 @media (max-width: 1899px) {
@@ -14857,9 +14859,9 @@ span {
   position: absolute;
   bottom: -20px;
   width: 105px;
-  height: 4px;
+  height: 1px;
   content: "";
-  background-color: #F5CE45;
+  background-color: #0dcaf0;
   text-align: center;
   left: 50%;
   transform: translateX(-50%);
@@ -17992,7 +17994,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #2f2b2b;
+  color: #fff;
   font-size: 18px;
 }
 
