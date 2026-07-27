@@ -8950,6 +8950,10 @@ span {
   color: var(--theme-4) !important;
 }
 
+.header-4.header-5 .main-menu ul li.active > a {
+  color: var(--theme-4) !important;
+}
+
 .header-4.header-5 .main-menu ul li .submenu li a {
   font-size: 16px;
   font-weight: 600;
@@ -9075,6 +9079,10 @@ span {
 }
 
 .header-4 .main-menu ul li a:hover {
+  color: var(--theme-3) !important;
+}
+
+.header-4 .main-menu ul li.active > a {
   color: var(--theme-3) !important;
 }
 
