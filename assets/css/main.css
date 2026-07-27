@@ -11489,13 +11489,13 @@ span {
   color: var(--white);
   text-transform: capitalize;
   margin-top: 20px;
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 600;
 }
 
 @media (max-width: 991px) {
   .hero-6 .hero-content h1 {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 
@@ -11507,13 +11507,13 @@ span {
 
 @media (max-width: 575px) {
   .hero-6 .hero-content h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
 @media (max-width: 470px) {
   .hero-6 .hero-content h1 {
-    font-size: 34px;
+    font-size: 30px;
   }
 }
 
