@@ -4864,14 +4864,14 @@ span {
 }
 
 .choose-image-style-1 .circle-box {
-  width: 140px;
-  height: 140px;
-  line-height: 140px;
-  background-color: var(--theme-2);
-  border-radius: 50%;
-  text-align: center;
+  width: 160px;
+  height: 150px;
+  /* line-height: 140px; */
+  /* background-color: var(--theme-2); */
+  /* border-radius: 50%; */
+  /* text-align: center; */
   position: absolute;
-  top: 98px;
+  top: 80px;
   right: 0;
 }
 
